@@ -6,10 +6,10 @@ using namespace std;
 
 int main()
 {
-    float Tank = 20, TownAvrg = 23.5, HighwayAvrg = 28.9;
-    float TownDis = Tank * TownAvrg;
-    float HighwayDis = Tank * HighwayAvrg;
-    cout << "The car can travel " << TownDis << " miles on one full tank of gas while driving in town." << endl;
-    cout << "The car can travel " << HighwayDis << " miles on one full tank of gas while driving on the highway." << endl;
+    int SurveyPart = 16500;
+    int RegCust = SurveyPart * .15;
+    int CitDrink = RegCust * .58;
+    cout << "Out of 16,500 customers survey, " << RegCust << " customers purchase one or more energy drinks per week." << endl;
+    cout << "Out of the " << RegCust << " customers who purchase one or more energy drinks per week, " << CitDrink << " of those customers prefer citrus-flavored energy drinks." << endl;
 }
 
